@@ -1,0 +1,387 @@
+.App {
+  text-align: center;
+  font-size: 17px;
+  background-color:white;
+  min-height: 100vh;
+ 
+}
+
+.header-section {
+  width: 100%;
+  background-color:#d60017;
+  position: fixed;
+}
+/* Style the header container */
+.header-container {
+  color:lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 90px;
+}
+
+/* Style the header buttons */
+.header-container .button,
+.header-container .button a {
+  width: 120px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the heading within the header */
+.header-container .header {
+  font-size: 28px;
+}
+
+
+/* Style search container */
+.search-container {
+  background-color: white;
+  width: 65%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: 0 5px 5px 0 #00000030;
+  border: currentColor;
+}
+
+/* Style the overall item */
+.output-item {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  background-color: #ffffffd8;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 0 #00000030;
+  border: currentColor;
+  gap: 15px;
+}
+
+/* Style the text that will be displayed if there is no artwork */
+.output-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+
+/* Style the item info section */
+.output-item .item-info {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Style the labels of the item */
+.output-item .item-info span {
+  font-weight: 500;
+}
+
+/* Style the container with the buttons */
+.output-item .btns {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Style the heart icon */
+.output-item .heart-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #00000035;
+}
+
+.output-item .heart-btn .clicked {
+  color: #d60017;
+}
+
+.output-item .heart-btn button:hover {
+  color: #d60017;
+  background-color: transparent;
+}
+
+/* Style the button that helps you view more info about the item */
+.output-item .view-more-btn button {
+  padding: 0px 5px;
+  font-size: 14px;
+}
+
+/* Style the form */
+form {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Style the search box */
+.search-box {
+  width: 45%;
+  max-width: 350px;
+}
+
+/* Style the dropdown */
+.filter {
+  width: 30%;
+  max-width: 200px;
+}
+
+/* Style the submit button */
+.submit-button .button {
+  width: 100px;
+}
+
+/* Search form styling */
+label,
+input,
+select {
+  display: block;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background:gray;
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for output-items conatiner*/
+.output-items {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+/* Style the overall item */
+.output-item {
+  display: flex;
+  align-items: center;
+  width: 27%;
+  background-color: #ffffffd8;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 0 #00000030;
+  border: currentColor;
+  gap: 15px;
+  margin:10px ;
+}
+
+/* Style the text that will be displayed if there is no artwork */
+.output-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+
+/* Style the item info section */
+.output-item .item-info {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Style the labels of the item */
+.output-item .item-info span {
+  font-weight: 500;
+}
+
+/* Style the container with the buttons */
+.output-item .btns {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Style the heart icon */
+.output-item .heart-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #00000035;
+}
+
+.output-item .heart-btn .clicked {
+  color:#d60017;
+}
+
+.output-item .heart-btn button:hover {
+  color:#d60017;
+  background-color: transparent;
+}
+
+/* Style the button that helps you view more info about the item */
+.output-item .view-more-btn button {
+  padding: 0px 5px;
+  font-size: 14px;
+}
+
+/* Style the search and output section */
+.search-and-output {
+  padding: 85px 60px 30px;
+}
+
+/* Style the search section */
+.search-container-section {
+  margin-bottom: 15px;
+}
+
+/* Style the button and spacer */
+.favourites-container .back-btn,
+.favourites-container .spacer {
+ width: 120px;
+}
+
+/* Style the favourites container */
+.favourites {
+ padding: 90px 60px 30px;
+}
+
+/* Style the text that will show if 'favourites' is empty */
+.favourites .empty {
+ width: 100%;
+ height: 200px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 24px;
+}
+
+/* Style the container with all the favourites if 'favourites' is not empty */
+.fav-items {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+/* Style the overall item */
+.fav-item {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  background-color: #ffffffd8;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 0 #00000030;
+  border: currentColor;
+  gap: 15px;
+}
+
+/* Style the text that will be displayed if there is no artwork */
+.fav-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+
+/* Style the item info section */
+.fav-item .item-info {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Style the labels of the item */
+.fav-item .item-info span {
+  font-weight: 500;
+}
+
+/* Style the container with the buttons */
+.fav-item .btns {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Style the trash icon */
+.fav-item .remove-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #d60017;
+}
+
+.fav-item .remove-btn button:hover {
+  color: #d60017;
+  background-color: transparent;
+}
+
+/* Style the button that helps you view more info about the item */
+.fav-item .view-more-btn button {
+  padding: 0px 5px;
+  font-size: 14px;
+}
+
+/* Help section */
+.help-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.instruction-body {
+  padding: 10px 15px;
+  background-color: #f1f1f1;
+  font-family: "Poppins";
+  text-align: left;
+}
+.instruction-body title{
+font-weight: 600;
+}
+.show-instruction-popup-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.closeInstructionsBtn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background:none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color:gray;
+}
+.show-instruction-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Style the heart and trash icons */
+.help-add-fav .fa-heart {
+  color: #00000035;
+}
+
